@@ -16,7 +16,7 @@ test_failed = 0;
 fprintf('Test 1: Quaternion Multiplication... ');
 try
     q1 = [1; 0; 0; 0];
-    q2 = [cos(pi/4); 0; 0; sin(pi/4)];  % 90-degree rotation about z-axis
+    q2 = [cos(pi/4); 0; 0; sin(pi/4)];  % 45-degree rotation about z-axis
     q_result = quat_mult(q1, q2);
     
     % Result should be approximately q2
