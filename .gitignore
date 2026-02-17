@@ -1,0 +1,50 @@
+# MATLAB
+*.asv
+*.m~
+*.autosave
+*.slxc
+slprj/
+*.mex*
+*.mat
+*.fig
+
+# Simulink
+*.slx.autosave
+*.slx.original
+*.slxc
+
+# Code generation
+codegen/
+*_ert_rtw/
+*_grt_rtw/
+*.tmw
+
+# Build artifacts
+*.o
+*.obj
+*.lib
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Temporary files
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Documentation
+html/
+latex/
+
+# Test results
+test_results/
+coverage/
