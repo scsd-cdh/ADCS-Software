@@ -33,8 +33,8 @@ gs = groundStation(sc, lat, lon, Name="Loyola ground station");
 
 ac = access(scfreyr, gs);
 
-intvls = accessIntervals(ac);
-[pos,velocity] = states(scfreyr)
+intvls = accessIntervals(ac)
+[pos,velocity] = states(scfreyr);
 
 %run sim
 show(scfreyr)
